@@ -52,5 +52,5 @@ uint32_t layer_state_set_kb(uint32_t state) {
   else{
     PORTD &= ~(1 << PD6);
   }
-    return state;
+  return state;
 }
